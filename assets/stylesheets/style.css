@@ -1,0 +1,165 @@
+nav,
+.slant {
+	background: #FFAFBD;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ffc3a0, #FFAFBD);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.slant {
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
+	color: #ffffff;
+}
+
+.btn-get-started {
+	color: #FFAFBD !important;
+	background-color: #ffffff;
+}
+
+section {
+	background-color: #ffffff;
+}
+
+.name-steps {
+	font-weight: lighter;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.social {
+	text-align: center;
+	margin-bottom: 0px !important;
+	background-color: #f8f9fa !important;
+}
+
+
+/* Color Variables */
+
+
+/* Social Icon Mixin */
+
+
+/* Social Icons */
+
+.social-icons {
+	display: -webkit-box;
+	display: flex;
+	justify-content: center;
+}
+
+.social-icon {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	position: relative;
+	width: 60px;
+	height: 60px;
+	margin: 0 0.5rem;
+	border-radius: 50%;
+	cursor: pointer;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 2.5rem;
+	text-decoration: none;
+	-webkit-transition: all 0.15s ease;
+	transition: all 0.15s ease;
+}
+
+.social-icon:hover {
+	color: #fff;
+}
+
+.social-icon:hover .tooltip {
+	visibility: visible;
+	opacity: 1;
+	-webkit-transform: translate(-50%, -150%);
+	transform: translate(-50%, -150%);
+}
+
+.social-icon:active {
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset;
+}
+
+.social-icon--twitter {
+	background: #2b97f1;
+	color: #fff;
+}
+
+.social-icon--twitter .tooltip {
+	background: #2b97f1;
+	color: currentColor;
+}
+
+.social-icon--twitter .tooltip:after {
+	border-top-color: #2b97f1;
+}
+
+.social-icon--steam {
+	background: #2a465e;
+	color: #fff;
+}
+
+.social-icon--steam .tooltip {
+	background: #2a465e;
+	color: currentColor;
+}
+
+.social-icon--steam .tooltip:after {
+	border-top-color: #2a465e;
+}
+
+.social-icon--facebook {
+	background: #3b5a9b;
+	color: #fff;
+}
+
+.social-icon--facebook .tooltip {
+	background: #3b5a9b;
+	color: currentColor;
+}
+
+.social-icon--facebook .tooltip:after {
+	border-top-color: #3b5a9b;
+}
+
+.social-icon i {
+	position: relative;
+	top: 1px;
+}
+
+
+
+.footer-nav {
+	padding-left: 0px;
+	list-style: none;
+}
+
+.footer-link {
+	text-decoration: none !important;
+	color: #ffffff;
+}
+
+.footer-policies {
+	list-style: none;
+	padding-left: 0px;
+	margin-top: -10px;
+}
+
+.footer-policies-lower {
+	display: inline;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+footer {
+	box-shadow: 0 50vh 0 50vh #ffb5b4;
+}
+
+.nav-item {
+	margin-right: 10px;
+}
